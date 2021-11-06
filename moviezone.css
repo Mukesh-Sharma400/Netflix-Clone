@@ -40,9 +40,9 @@ body {
   color: white;
   text-decoration: none;
   text-align: center;
-  border: rgba(88, 88, 88, 0.5) 2px solid;
+  border: rgba(88, 88, 88, 0.5) 1px solid;
   border-radius: 50%;
-  padding: 10px 12px;
+  padding: 10px 15px;
 }
 .container #backbtn a:hover {
   background-color: rgba(88, 88, 88, 1);
