@@ -101,7 +101,7 @@ body {
   width: 13rem;
   font-size: 1.5rem;
   background-color: #e50910;
-  padding: 15px 0px;
+  padding: 13px 0px;
   color: white;
   text-decoration: none;
   border-top-right-radius: 2px;
@@ -179,7 +179,7 @@ body {
   text-align: center;
   margin: 3rem 0;
 }
-.faq h2 {
+/* .faq h2 {
   font-size: 1.7rem;
   font-weight: 100;
   width: 45rem;
@@ -194,11 +194,53 @@ body {
   float: right;
   font-size: 2rem;
   font-weight: 100;
-}
+} */
 .faq p {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 5rem;
+}
+.accordion {
+  font-size: 1.7rem;
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.panel {
+  width: 60%;
+  color: white;
+  margin-bottom: 10px;
+  background-color: #303030;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  transform: translate(33.35%);
+}
+.panel p {
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 0;
+  padding: 25px;
+  border-top: black 1.5px solid;
+}
+.accors {
+  text-align: center;
+}
+.accordion:after {
+  content: "+";
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "x";
 }
 .faq #email {
   padding: 2rem 0rem 5rem 0rem;

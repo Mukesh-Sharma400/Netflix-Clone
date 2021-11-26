@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="signin.css" />
+    <link rel="icon" href="assets_v3/Netflix Fevicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <body>
+      <section class="banner">
+        <img src="assets_v3/Banner.jpg" alt="Banner" />
+      </section>
+      <section class="topbar">
+        <div id="logo">
+          <a href="index.html"
+            ><img src="assets_v3/Netflix Logo.png" alt="Netflix Logo"
+          /></a>
+        </div>
+      </section>
+      <form action="/action_page.php" method="post">
+        <div class="container">
+          <h1>Sign In</h1>
+          <input
+            type="email"
+            placeholder="Email or phone number"
+            name="uname"
+            required
+          />
+
+          <input type="password" placeholder="Password" name="psw" required />
+
+          <button type="submit">Sign In</button>
+          <div class="belsign">
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+            <a href="#"> <span id="needhelp">Need help?</span></a>
+          </div>
+          <div class="facebook">
+            <img src="assets_v3/Facebook Logo.png" alt="" />
+            <p>Login with Facebook</p>
+          </div>
+          <div>
+            <p>
+              New to Netflix?
+              <a href="#"> <span id="signup">Sign up now</span></a
+              >.
+            </p>
+          </div>
+          <div>
+            <p>
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot.
+              <a href="#"> <span id="learnmore">Learn more.</span></a>
+            </p>
+          </div>
+        </div>
+      </form>
+      <div class="divider"></div>
+      <section class="footer">
+        <div>
+          <h1>Questions? Call 000-800-040-1843</h1>
+        </div>
+        <div>
+          <ul id="firstcol">
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+          </ul>
+          <ul>
+            <li>Help Centre</li>
+            <li>Jobs</li>
+            <li>Cookie Preferences</li>
+            <li>Legal Notices</li>
+          </ul>
+          <ul>
+            <li>Account</li>
+            <li>Ways to Watch</li>
+            <li>Corporate Information</li>
+            <li>Only on Netflix</li>
+          </ul>
+          <ul>
+            <li>Media Centre</li>
+            <li>Terms of Use</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <select id="bottombox" class="dropbox">
+            <option value="English">English</option>
+            <option value="हिन्दी">हिन्दी</option>
+          </select>
+        </div>
+        <div>
+          <h3>Netflix India</h3>
+        </div>
+      </section>
+    </body>
+  </body>
+</html>
