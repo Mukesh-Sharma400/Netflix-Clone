@@ -240,7 +240,8 @@ body {
   margin-left: 5px;
 }
 .active:after {
-  content: "x";
+  content: "+";
+  transform: rotate(45deg);
 }
 .faq #email {
   padding: 2rem 0rem 5rem 0rem;
