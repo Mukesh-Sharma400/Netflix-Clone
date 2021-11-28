@@ -83,13 +83,14 @@ div.scrollmenu {
 .cards .scrollmenu img {
   height: 7rem;
   width: 11rem;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 0rem 0.5rem 0rem 0rem;
 }
 div.scrollmenu a {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 div.scrollmenu a:first-child {
   margin-left: 2rem;
