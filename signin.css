@@ -47,7 +47,7 @@ p {
   margin: 0.2rem 0rem 0rem 1.2rem;
 }
 
-input[type="email"],
+input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 15px 20px;

@@ -24,10 +24,11 @@
         <div class="container">
           <h1>Sign In</h1>
           <input
-            type="email"
+            type="text"
             placeholder="Email or phone number"
-            name="uname"
             required
+            name="uname"
+            pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{10})$"
           />
 
           <input type="password" placeholder="Password" name="psw" required />
