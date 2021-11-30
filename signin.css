@@ -169,8 +169,8 @@ span.psw {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.75); /* Black background with 0.5 opacity */
   width: 100%; /* Full width */
-  padding-top: 10px; /* Some padding */
-  margin-top: -260px;
+  padding-top: 1px; /* Some padding */
+  margin-top: -258px;
 }
 .footer h1 {
   font-size: 1rem;
