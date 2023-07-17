@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 715px;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.topbar img {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  margin: 1rem 0rem 0rem 3rem;
+}
+#login {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 4rem;
+  margin-top: 1.5rem;
+  z-index: 1;
+}
+#login a {
+  color: white;
+  text-decoration: none;
+  margin-left: 3rem;
+  background-color: #e50910;
+  padding: 8px 18px;
+  border-radius: 4px;
+}
+.dropbox {
+  background-color: black;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+.container {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.container h1 {
+  font-size: 3rem;
+}
+.container h3 {
+  font-size: 1.7rem;
+  font-weight: 100;
+  margin: 13px 0px;
+}
+.container p {
+  font-size: 1.2rem;
+  margin: 20px 0px;
+}
+.container #email,
+.faq #email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #email input:placeholder-shown,
+.faq #email input:placeholder-shown {
+  font-size: 1rem;
+}
+.container #email input,
+.faq #email input {
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 27rem;
+  padding: 5px 5px 5px 10px;
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  outline: none;
+}
+.container #email a,
+.faq #email a {
+  width: 13rem;
+  font-size: 1.5rem;
+  background-color: #e50910;
+  padding: 13px 0px;
+  color: white;
+  text-decoration: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-align: center;
+}
+#card1,
+#card2,
+#card3,
+#card4 {
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  text-align: left;
+  align-items: center;
+  margin: 0 5rem;
+}
+.cards h1 {
+  font-size: 3rem;
+}
+.cards p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.cards img {
+  height: 100%;
+  width: 100%;
+}
+.cards video {
+  position: absolute;
+  right: 0;
+}
+#card1 video {
+  margin: 5.4rem 4.8rem 0rem 0rem;
+  width: 25.1rem;
+  z-index: -1;
+}
+#gif {
+  position: absolute;
+  display: flex;
+  border: rgba(255, 255, 255, 0.25) 2px solid;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 1rem 1rem 1rem 1rem;
+  bottom: 1.5rem;
+  left: 0;
+  margin-left: 6rem;
+  background-color: black;
+  z-index: 1;
+}
+#gif img {
+  height: 70px;
+  width: 50px;
+}
+#gif h3 {
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin: 5px 0px 0px 15px;
+  width: 200px;
+}
+#gif p {
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0071eb;
+  margin-left: 15px;
+  width: 200px;
+}
+#card3 video {
+  margin: 2rem 6.8rem 0rem 0rem;
+  width: 21rem;
+  z-index: -1;
+}
+.faq h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+/* .faq h2 {
+  font-size: 1.7rem;
+  font-weight: 100;
+  width: 45rem;
+  background-color: #303030;
+  margin: 0.5rem auto;
+  padding: 1.5rem 2rem;
+}
+.faq h2:hover {
+  cursor: pointer;
+}
+.faq #plus {
+  float: right;
+  font-size: 2rem;
+  font-weight: 100;
+} */
+.faq p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+.accordion {
+  font-size: 1.7rem;
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.panel {
+  width: 60%;
+  color: white;
+  margin-bottom: 10px;
+  background-color: #303030;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  transform: translate(33.35%);
+}
+.panel p {
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 0;
+  padding: 25px;
+  border-top: black 1.5px solid;
+}
+.accors {
+  text-align: center;
+}
+.accordion:after {
+  content: "+";
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "+";
+  transform: rotate(45deg);
+}
+.faq #email {
+  padding: 2rem 0rem 5rem 0rem;
+}
+.footer {
+  color: #757575;
+  font-size: 0.8rem;
+}
+.footer h1 {
+  font-size: 1rem;
+  margin: 4rem 0rem 2rem 10rem;
+  font-weight: 100;
+}
+.footer h3 {
+  font-weight: 100;
+  margin: 0rem 0rem 3rem 10rem;
+}
+.footer ul {
+  display: inline-table;
+  margin-left: 7rem;
+}
+.footer #firstcol {
+  margin-left: 10rem;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+.footer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline #757575 1px solid;
+}
+#bottombox {
+  margin: 3rem 0rem 2rem 10rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #757575;
+}
+.divider {
+  background-color: #222;
+  height: 0.5rem;
+}

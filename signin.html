@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="signin.css" />
+    <link rel="icon" href="assets/Netflix Fevicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <body>
+      <section class="banner">
+        <img src="assets/Big Banner.jpg" alt="Banner" />
+      </section>
+      <section class="topbar">
+        <div id="logo">
+          <a href="index.html"
+            ><img src="assets/Netflix Logo.png" alt="Netflix Logo"
+          /></a>
+        </div>
+      </section>
+      <form action="moviezone.html" method="get">
+        <div class="container">
+          <h1>Sign In</h1>
+          <input
+            type="text"
+            placeholder="Email or phone number"
+            required
+            name="uname"
+            pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{10})$"
+          />
+
+          <input type="password" placeholder="Password" name="psw" required />
+
+          <button type="submit">Sign In</button>
+          <div class="belsign">
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+            <a href="#"> <span id="needhelp">Need help?</span></a>
+          </div>
+          <div class="facebook">
+            <img src="assets/Facebook Logo.png" alt="" />
+            <p>Login with Facebook</p>
+          </div>
+          <div>
+            <p>
+              New to Netflix?
+              <a href="#"> <span id="signup">Sign up now</span></a
+              >.
+            </p>
+          </div>
+          <div class="smallpara">
+            <p>
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot.
+              <a href="#"> <span id="learnmore">Learn more.</span></a>
+            </p>
+          </div>
+        </div>
+      </form>
+      <section class="footer">
+        <div>
+          <h1>Questions? Call 000-800-040-1843</h1>
+        </div>
+        <div>
+          <ul id="firstcol">
+            <li>FAQ</li>
+            <li>Cookie Preferences</li>
+          </ul>
+          <ul>
+            <li>Help Centre</li>
+            <li>Corporate Information</li>
+          </ul>
+          <ul>
+            <li>Terms of Use</li>
+          </ul>
+          <ul>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div>
+          <select id="bottombox" class="dropbox">
+            <option value="English">English</option>
+            <option value="हिन्दी">हिन्दी</option>
+          </select>
+        </div>
+      </section>
+    </body>
+  </body>
+</html>
