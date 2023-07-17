@@ -46,7 +46,6 @@ p {
   width: 13rem;
   margin: 0.2rem 0rem 0rem 1.2rem;
 }
-
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -76,7 +75,6 @@ button {
   font-size: 17px;
   font-weight: bold;
 }
-
 button:hover {
   opacity: 0.8;
 }
@@ -96,7 +94,6 @@ button:hover {
   width: 15px;
   vertical-align: middle;
 }
-
 #needhelp {
   text-decoration: none;
   color: #8c8c8c;
@@ -113,7 +110,6 @@ button:hover {
 #learnmore:hover {
   text-decoration: underline;
 }
-
 .facebook {
   display: flex;
   flex-direction: row;
@@ -135,17 +131,14 @@ button:hover {
   padding: 10px 18px;
   background-color: #f44336;
 }
-
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
 }
-
 img.avatar {
   width: 40%;
   border-radius: 50%;
 }
-
 .container {
   padding: 65px 70px 150px 70px;
   width: 25%;
