@@ -21,3 +21,5 @@ To run the Netflix Clone locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/netflix-clone.git
    ```
+
+2. Start the Live Server from the VS Code Extensions.
